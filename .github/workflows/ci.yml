@@ -17,5 +17,7 @@ jobs:
         with:
           go-version: '1.20'
 
-      - name: Check Version
-        run: go version
+      - name: Tests
+        run: go test -v ./...
+        env:
+          GOFLAGS: -mod=vendor

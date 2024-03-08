@@ -5,11 +5,11 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"encoding/json"
+	"learn-cicd-starter/internal/database"
 	"log"
 	"net/http"
 	"time"
 
-	"github.com/bootdotdev/learn-cicd-starter/internal/database"
 	"github.com/google/uuid"
 )
 
