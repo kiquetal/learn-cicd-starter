@@ -4,6 +4,7 @@ import (
 	"database/sql"
 	"embed"
 	"io"
+	"learn-cicd-starter/internal/database"
 	"log"
 	"net/http"
 	"net/url"
@@ -13,8 +14,6 @@ import (
 	"github.com/go-chi/chi"
 	"github.com/go-chi/cors"
 	"github.com/joho/godotenv"
-
-	"github.com/bootdotdev/learn-cicd-starter/internal/database"
 
 	_ "github.com/go-sql-driver/mysql"
 )
