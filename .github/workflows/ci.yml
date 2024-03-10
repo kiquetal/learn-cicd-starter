@@ -23,7 +23,7 @@ jobs:
           GOFLAGS: -mod=vendor
 
   style:
-    name: Style Formatting
+    name: Style
     runs-on: ubuntu-latest
 
     steps:
