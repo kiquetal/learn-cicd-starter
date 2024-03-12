@@ -4,12 +4,12 @@ import "testing"
 
 func TestGetAPIKey(t *testing.T) {
 
-	var headers map[string][]string
-	headers = make(map[string][]string)
+	var headers = make(map[string][]string)
 	headers["Authorization"] = []string{""}
 
-	_, error := GetAPIKey(headers)
-	if error == nil {
-		t.Errorf("Expected error, got nil")
+	_, err := GetAPIKey(headers)
+
+	if err == nil {
+		t.Errorf("Expected err, got nil")
 	}
 }
