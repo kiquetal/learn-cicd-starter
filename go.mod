@@ -3,14 +3,13 @@ module learn-cicd-starter
 go 1.20
 
 require (
-	github.com/bootdotdev/learn-cicd-starter v0.0.0-20240307174818-bcce6df1b023
 	github.com/go-chi/chi v1.5.5
 	github.com/go-chi/cors v1.2.1
-	github.com/go-sql-driver/mysql v1.7.1
 	github.com/google/uuid v1.6.0
 	github.com/joho/godotenv v1.5.1
 	github.com/tursodatabase/libsql-client-go v0.0.0-20240220085343-4ae0eb9d0898
 )
+
 require (
 	github.com/antlr/antlr4/runtime/Go/antlr/v4 v4.0.0-20230512164433-5d1fd1a340c9 // indirect
 	github.com/klauspost/compress v1.15.15 // indirect

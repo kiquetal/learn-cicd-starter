@@ -3,9 +3,7 @@ package main
 import (
 	"encoding/json"
 	database "learn-cicd-starter/internal/database"
-	"net/http"
-	"time"
-
+	"log"
 	"net/http"
 	"time"
 
